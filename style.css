@@ -109,3 +109,63 @@ footer {
     padding: 2px 10px
 
 }
+
+@media only screen and (max-width: 600px) {
+
+    .vareKort {
+        height: 155px;
+        width: 30%;
+        min-width: 300px;
+        margin: 15px 5px;
+        background-color: #833447   ;
+        padding: 7px;
+        position: relative;
+        border-radius: 0;
+    }
+
+    .kortHolder {
+        width: 100%;
+        background-color:#E85F5C;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        overflow: scroll;
+        border: solid 0 red;
+        border-bottom: 2px solid black;
+        padding: 5px;
+        border-radius: 0;
+    }
+    
+    p{
+        font-size:0.7rem
+    }
+
+    .vareKort {
+        height: 155px;
+        width: 30%;
+        min-width: 355px;
+        margin: 10px;
+        background-color: #833447   ;
+        padding: 7px;
+        position: relative;
+        border-radius: 5px;
+    }
+    
+    a {
+        text-decoration: none;
+        background-color: black;
+        padding: 10px;
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 100px;
+        text-align:center;
+        
+    }
+
+
+  }
